@@ -1,0 +1,5 @@
+django==4.2.0
+django-cors-headers==4.4.0
+djangorestframework
+django-environ==0.11.2
+psycopg2
