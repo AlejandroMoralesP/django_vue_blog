@@ -25,7 +25,7 @@ class Post(models.Model):
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='post_user')
     status = models.CharField(max_length=10, choices=options, default='draft')
     objects = models.Manager()
-    postobjects = PostObjects()
+    post_objects = PostObjects()
 
     class Meta:
         ordering = ('-published', )
