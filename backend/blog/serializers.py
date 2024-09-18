@@ -8,6 +8,7 @@ class PostSerializer(serializers.ModelSerializer):
                    'title', 
                    'thumbnail', 
                    'content',
+                   'slug',
                    'published',
                    'author',
                    'status',
